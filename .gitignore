@@ -1,0 +1,22 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Python/Ansible cache
+__pycache__/
+*.retry
+
+# SCAP scan outputs (keep only one sample manually)
+scap/reports/*.xml
+scap/reports/*.html
+scap/reports/*.csv
+!scap/reports/sample_scan.html
+!scap/reports/sample_scan.xml
+
+# Logs
+*.log
+
+# AWS creds (never commit!)
+.aws/
