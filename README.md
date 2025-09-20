@@ -30,3 +30,6 @@ Results are mapped to relevant RMF controls.
 3. Run OpenSCAP baseline scan.
 4. Apply Ansible playbooks for automation.
 5. Validate compliance with STIG Viewer.
+
+> ⚠️ **Disclaimer:** This project is for educational and demonstration purposes only. It is not intended for production use.
+
